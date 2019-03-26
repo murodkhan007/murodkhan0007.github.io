@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<title>Murodkhan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+    }
+
+    header {
+        background-image: -webkit-linear-gradient(0deg, #0e1 0%, #00acc1 100%);
+        background-image: -ms-linear-gradient(0deg, #8bc34a 0%, #00acc1 100%);
+    }
+
+    header img {
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        ;
+    }
+
+    header h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+   .portfolio{
+       text-align: center;
+       padding-bottom: 50px;
+       padding-top: 20px;
+      
+   }
+   .portfolio h2{
+       font-size: 36px;
+       font-weight: bold;
+   }
+   .portfolio-main, .myportfolio{
+       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+   }
+   .portfolio-main, .myportfolio, h5{
+       text-align: left;
+       padding-left: 12px;
+   }
+   .portfolio a{
+      
+   }
+   .portfolio img{
+       max-width: 320px;
+       max-height: 220px;
+       padding: 10px;
+   }
+   footer{
+    background-image: -webkit-linear-gradient(0deg, #000 0%, #00acc1 100%);
+        background-image: -ms-linear-gradient(0deg, #8bc34a 0%, #00acc1 100%);
+        padding: 50px 0;
+   }
+    
+</style>
+
+<body>
+
+    <!-- Header -->
+    <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+        <img src="coder.jpg" alt="coder">
+        <h1>Murodkhan</h1>
+        <p>Coder</p>
+    </header>
+
+    <!-- Portfolio Section -->
+    <div class="portfolio">
+        <h2 class="w3-text-grey">My Portfolio</h2>
+        <hr>
+        <div class="portfolio-main">
+                <div class="myportdolio">
+                        <h5>Effect Consulting</h5>
+                         <a href="app/index.html"><img src="demo.png" ></a>
+                     </div>
+                     <div class="myportdolio">
+                         <h5>Golden</h5>
+                         <a href="gold/index.html"><img src="gold.png" ></a>
+                     </div>
+                    <div class="myportdolio">
+                        <h5>Avto Xoll</h5>
+                        <a href="avtoxoll/index.html"><img src="avto.png" ></a>
+                    </div>
+                    <div class="myportdolio">
+                            <h5>Avto Xoll</h5>
+                            <a href="avtoxoll/index.html"><img src="avto.png" ></a>
+                        </div>
+                   
+        </div>
+           
+               
+    </div>
+ 
+
+
+
+    <!-- Footer -->
+    <footer>
+            <audio autoplay>
+                    <source src="Bahtiyor_Rahmanov_-_Rano_(uzhits.net).ogg" type="audio/ogg">
+                    <source src="Bahtiyor_Rahmanov_-_Rano_(uzhits.net).mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+        <h5></h5>
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>  
+        <i class="fa fa-vk" aria-hidden="true"></i> 
+        <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+        <i class="fa fa-telegram" aria-hidden="true"></i>  
+    </footer>
+
+   
+  
+
+    <script>
+        // Open and close sidebar
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "60%";
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
